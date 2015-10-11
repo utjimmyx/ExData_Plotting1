@@ -39,7 +39,7 @@ with(data, {
 legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2,  
        legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3")) 
 
-
+#########################################
 ## Saving to file 
 dev.copy(png, file="plot3.png", height=480, width=480) 
 dev.off() 
@@ -61,7 +61,11 @@ with(data, {
        ylab="Global Rective Power (kilowatts)",xlab="") 
 }) 
 
+<<<<<<< HEAD
 #
+=======
+
+>>>>>>> c7d6fbc8f68ffc8165820dd04d1f0a95b3191782
 ## Saving to file 
 dev.copy(png, file="plot4.png", height=480, width=480) 
 dev.off() 
